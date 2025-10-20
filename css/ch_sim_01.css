@@ -581,6 +581,8 @@ input[type="radio"]:checked::after {
   select,
   input {
     width: 100%;
+	margin-left: 1rem;
+    margin-right: 1rem;
   }
 }
 
@@ -822,4 +824,5 @@ div.notice p:last-of-type {
     white-space: pre-wrap;
   }
 }
+
 
