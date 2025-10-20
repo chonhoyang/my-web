@@ -109,7 +109,7 @@ body {
   line-height: 1.5;
   display: grid;
   grid-template-columns: 1fr min(45rem, 98%) 1fr;
-  margin: 10px;
+  margin: 0px;
   }
 }
 body > * {
@@ -376,13 +376,17 @@ article, fieldset, dialog {
   border: var(--border-width) solid var(--border);
   padding: 1rem;
   border-radius: var(--standard-border-radius);
+  margin-left: 1rem;
+  margin-right: 1rem;
   margin-bottom: 1rem;
 }
 /* Mobile용 article, fieldset, dialog */
 @media only screen and (max-width: 720px){
-  article, dialog {
+  article, fieldset, dialog {
     border: none;
     padding: 1rem;
+	margin-left: 1rem;
+	margin-right: 1rem;
     margin-bottom: 1rem;
   }
 }
@@ -822,6 +826,7 @@ div.notice p:last-of-type {
     white-space: pre-wrap;
   }
 }
+
 
 
 
