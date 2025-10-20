@@ -109,7 +109,7 @@ body {
   line-height: 1.5;
   display: grid;
   grid-template-columns: 1fr min(45rem, 98%) 1fr;
-  margin: 1rem;
+  margin: 10px;
   }
 }
 body > * {
@@ -822,6 +822,7 @@ div.notice p:last-of-type {
     white-space: pre-wrap;
   }
 }
+
 
 
 
