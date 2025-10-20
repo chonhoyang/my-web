@@ -380,7 +380,7 @@ article, fieldset, dialog {
 }
 /* Mobile용 article, fieldset, dialog */
 @media only screen and (max-width: 720px){
-  article, fieldset, dialog {
+  article, dialog {
     border: none;
     padding: 1rem;
     margin-bottom: 1rem;
@@ -822,3 +822,4 @@ div.notice p:last-of-type {
     white-space: pre-wrap;
   }
 }
+
