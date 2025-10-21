@@ -117,7 +117,7 @@ body > * {
 }
 @media only screen and (max-width: 720px) {
   body > * {
-	margin: 1rem;
+	margin: 0.5rem;
   }
 }
 
@@ -828,6 +828,7 @@ div.notice p:last-of-type {
     white-space: pre-wrap;
   }
 }
+
 
 
 
