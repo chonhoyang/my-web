@@ -380,7 +380,6 @@ aside {
 
 article, fieldset, dialog {
   border: var(--border-width) solid var(--border);
-  padding: 1rem;
   border-radius: var(--standard-border-radius);
   margin-bottom: 1rem;
 }
@@ -388,7 +387,6 @@ article, fieldset, dialog {
 @media only screen and (max-width: 720px){
   article, fieldset, dialog {
     border: none;
-    padding: 1rem;
     margin-bottom: 1rem;
   }
 }
@@ -828,6 +826,7 @@ div.notice p:last-of-type {
     white-space: pre-wrap;
   }
 }
+
 
 
 
