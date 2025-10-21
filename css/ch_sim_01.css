@@ -117,11 +117,7 @@ body > * {
 }
 @media only screen and (max-width: 720px) {
   body > * {
-    border: none;
-    padding: 0;
-    text-decoration: underline;
-    line-height: 1;
-	margin: 0rem;
+	margin: 1rem;
   }
 }
 
@@ -132,6 +128,7 @@ body > header {
   text-align: center;
   padding: 0 0.5rem 2rem 0.5rem;
   grid-column: 1 / -1;
+  margin: 0rem;	
 }
 
 body > header > *:only-child {
@@ -831,6 +828,7 @@ div.notice p:last-of-type {
     white-space: pre-wrap;
   }
 }
+
 
 
 
