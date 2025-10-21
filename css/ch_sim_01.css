@@ -109,11 +109,20 @@ body {
   line-height: 1.5;
   display: grid;
   grid-template-columns: 1fr min(45rem, 98%) 1fr;
-  margin: 1rem;
+  margin: 0rem;
   }
 }
 body > * {
   grid-column: 2;
+}
+@media only screen and (max-width: 720px) {
+  body > * {
+    border: none;
+    padding: 0;
+    text-decoration: underline;
+    line-height: 1;
+	margin: 0rem;
+  }
 }
 
 /* Make the header bg full width, but the content inline with body */
@@ -822,6 +831,7 @@ div.notice p:last-of-type {
     white-space: pre-wrap;
   }
 }
+
 
 
 
