@@ -15,6 +15,16 @@
     <h2>소개</h2>
     <p>여기에 자기소개나 프로젝트 설명을 적어보세요.</p>
     <p>HTML, CSS, JavaScript 파일을 추가하면 점점 더 멋진 사이트가 됩니다!</p>
+    <div id="container01"></div>
+
+<script>
+  fetch('temp/temp01.txts')
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById('container01').innerHTML = data;
+    })
+    .catch(error => console.error('Error loading file:', error));
+</script>
   </main>
   <footer>
     <p>© 2025 My Web</p>
